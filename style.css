@@ -1,0 +1,27 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+.title {
+  width: 100%;
+  height: 100px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+  flex-basis: calc(15%);
+}
+
+.profile {
+  flex-basis: calc(80%);
+}
